@@ -32,6 +32,7 @@ console.log(var1);
 
 /**
  * This will output a blank line to the console.
+ * CHECK: Not functioning as intended - issue may be safari related. 
  */
 console.log();
 
@@ -60,12 +61,14 @@ console.log(var3);
 
 /**
  * Reassigns var1 with the value of 5, outputs to console.
+ * CHECK: Functioning as intended.
  */
 var1 = 5;
 console.log(var1);
 
 /**
  * Reassigns varls with the value of 3, 
+ * CHECK: Functioning as intended.
  */
 var2 = "3"
 console.log(Number(var2));
